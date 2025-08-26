@@ -17,10 +17,10 @@ export default function Header() {
               <Link to="/about">ABOUT</Link>
             </li>
             <li className="hover:text-gray-300 transition-colors">
-              <Link to="/blog">BLOG</Link>
+              <Link to="/project">PROJECTS</Link>
             </li>
             <li className="hover:text-gray-300 transition-colors">
-              <Link to="/project">PROJECT</Link>
+              <Link to="/blog">BLOG</Link>
             </li>
           </ul>
         </div>
