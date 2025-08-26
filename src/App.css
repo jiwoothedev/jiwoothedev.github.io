@@ -1,0 +1,15 @@
+.header {
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0.3) 0%,
+    rgba(255, 255, 255, 0.15) 50%,
+    rgba(255, 255, 255, 0.1) 100%
+  );
+
+  border-radius: 9999px;
+  outline: 1px solid rgba(255, 255, 255, 0.3);
+  outline-offset: 0.3px; /* 테두리 바깥쪽으로 */
+
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px); /* 사파리 대응 */
+}
